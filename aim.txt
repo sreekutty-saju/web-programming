@@ -1,0 +1,24 @@
+Q1.html code for displaying "aim of the course,course code,name,....."
+
+
+<html>
+<head>
+<title>Aim of the course</title><b><u><font size=12 color="yellow">20MCA133:-WEB PROGRAMMING</font></u></b></head>
+<h1><b><i><font face="Algerian" color="white">Name:Sreekutty Saju<font></i></b></h1>
+<h2><b><i><font face="Algerian" size=6 color="white">Class: S1 MCA<font></i></b></h2>
+<h3><b><i><font face="Algerian" size=6 color="white">Department:Computer Application<font></i></b></h3>
+<h4><b><i><font face="Algerian" size=6 color="white">College:Mar AthanasiusCollege of Engineering<font></i></b></h4>
+<body bgcolor="green">
+<p><font color="white">mention the situations:</font></p>
+<table border="1" align="centre" width="30%" height="40">
+<tr align="centre">
+<td>makes yoou happy</td>
+<td>makes you sad</td>
+</tr>
+<tr align="centre" width="30%" height="80">
+<td>being with my beloved ones </td>
+<td>i love travelling to overcome my sad situation </td>
+</tr>
+</table>
+</body>
+</html>

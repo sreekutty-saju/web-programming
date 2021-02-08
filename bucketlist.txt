@@ -1,0 +1,34 @@
+Q3.prepare a bucket list which use the following tags of list[ul,oldl,dd]
+
+<html>
+<head>
+<title>SREEKUTTY SAJU</title><b><u><font size=12 color="yellow">MY BUCKETLIST</font></u></b>
+</head>
+<marquee>bucketlist</marquee>
+<h1><i><font face="Algerian" color="balck">
+"Everyman dies_<b><em> Not every man really lives"</b></em><sub>~William Ross</sub><font>
+<li></h1>
+<body>
+<dl><dt>
+Anything is possible in mind"
+</dt>
+<dd> Welcome to my bucketlist,which was started in 2020.It is never ending,work in progress</dd>
+Adventures
+<ol><li>jump off a waterfall</li><br>
+<li>jump off a cliff</li><br>
+<li>explore marine world</li><br>
+<li>sky diving</li>
+</ol>
+
+nature
+<ul>
+<li>
+horse riding</li><br>
+
+<li>climb to the top of the tree<\li><br>
+<li>name a star..</li>
+</ul>
+<img><embed type=c:\users\asus\ols.jpg"</img>
+<a href="www.youtube.com">click here</a>
+</body>
+</html>

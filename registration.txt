@@ -1,0 +1,64 @@
+Q2.Prepare a registration form
+
+
+<html>
+  <head>
+   <title>Registration Form</title>
+REGISTRATION FORM
+   </head>
+<body>
+   <form>
+    <table>
+      <tr>
+     <td>Name :</td>
+<td><input type="text" placeholder="name" name=""></td>
+</tr>
+<tr>
+<td>Gender :</td>
+<td><input type="radio" name="Gender">Male
+<input type="radio" name="Gender">female</td>
+</tr>
+<tr>
+<td>Guardian :</td>
+<td><input type="text" name=""></td>
+</tr>
+<tr>
+<td>Phone No :</td>
+<td>
+<select>
+      <option>+91</option>
+     <option>+97</option>
+       <option>+96</option>
+</select>
+ <input type="phone" name=""></td>
+</tr>
+<tr>
+<td><label>DOB:</label></td>
+<td><input type="date-local" name="DOB"><br></td>
+</tr>
+<tr>
+<td>Address :</td>
+<td><textarea></textarea></td>
+</tr>
+<tr>
+<td>Course selected: :</td>
+<td><input type="checkbox" name="Course selected">BCA
+        <input type="checkbox" name="Courseselected">BBA
+        <input type="checkbox" name="Course selected">BA
+</td>
+</tr>
+<tr>
+<td>Hobbies :</td>
+<td><textarea></textarea></td>
+</tr>
+<tr>
+<td>Extra curricular activities :</td>
+<td><textarea></textarea></td>
+</tr>
+<tr>
+<td><input type="submit" value="submit" name=""></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
