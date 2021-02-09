@@ -1,0 +1,142 @@
+Q4.Prepare a program list for an event.[Manipulating text, Margin ,padding,position].
+
+
+<html>
+  <head>
+    <style>
+      .hed
+      {
+        
+        text-align:center;
+        background-color:green;
+        
+      }
+      .dat
+      {
+        
+        text-align:right;
+      }
+      .clg
+      {
+        text-align:center;
+      text-decoration: underline;
+        background-color:red;
+      }
+      .invite
+      {
+        /*name details*/
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+        border: 5px solid black;
+      }
+      .venue
+      {
+        
+        width: 500px;
+        margin-bottom: 100px;
+        position: absolute;
+        left:0;
+        border: 10px solid blue;
+        background-color: yellow;
+      }
+    
+      .pro
+      {
+        
+        border: 1px solid black;
+        background-color: silver;
+         padding-top: 70px;
+         padding-right: 30px;
+         padding-bottom: 50px;
+          padding-left: 80px;
+      }
+      .stud
+      {
+        
+        color:red;
+        padding: 25px 50px 75px 100px;
+      }
+      .contact
+      {
+        
+        color:black;
+        position: static;
+  border: 1px solid #73AD21;
+      }
+      .happy
+      {
+        
+        color:blue;
+        position: relative;
+      left: 30px;
+      
+      }
+      .ma
+      {
+        
+        color:darkorange;
+        position: fixed;
+       top:0;
+      left: 0;
+       width: 300px;
+      border: 3px solid green;
+      background-color:black;
+      }
+      .fun
+      {
+        text-align:center;
+        color:violet;
+        position: absolute;
+      bottom: 80px;
+      right: 0;
+      width: 200px;
+       height: 100px;
+      border: 3px solid #82AD00;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <h1 class="hed"> CHRISTMAS CELEBRATION </h1>  
+    <p class="dat">Date:12/12/2020<br>Place:Kothamangalam</p>
+    <p class="clg">Mar Athanacius College of Engineering,Kothamangalam</p>
+    <div class="invite"><font face="Papyrus"><pre>
+      sir,
+          We the students of Mar Athanacius College of Engineering,Kothamangalam decided to conduct our christmas celebration on 24/12/2020 
+          at 10 AM.Christmas is celebrated in almost all over the world by people of all faiths. 
+          People remember their loved ones and get in touch with them by writing or by sending gifts.
+          Many others hold get-togethers in the form of Christmas parties so that they can get in touch with those who are dear to them. 
+          Such hearty acts of love bring people closer and strengthen the bonds between them.
+    </font></pre></div>
+    <div class="venue">
+      Place:Mar Athanacius College of Engineering,Kothamangalam
+      <BR>
+      Time:10AM<br>
+      Date:24/12/2020<br|>     
+    </div><br>
+   
+    <div class="pro"><pre><font size=8 face="Algerian">
+                                      PROGRAMMES
+      Inaguration:10.00AM
+      Felicitation:Principal
+      
+      
+     </font></pre></div>
+    <p class="stud">MCA Department</p>
+    <p class="contact">afs:15869452<br>juy:4789562
+      
+      </p>
+      <p class="happy">
+      <marquee>happy christmas  happy xmas happy christmas</marquee> 
+      </p>
+      <p class="ma"><font face="algerian" size=12 color="red">
+      MACE </font>
+    </p>
+    <p class="fun">
+      HAVE FUN
+     </p>
+      
+  </body>
+</html>
