@@ -1,0 +1,36 @@
+<html>
+<head></head>
+<body>
+  <form action="#" method=POST>
+        <label>Item Name :</label> <input type="text" name="item"><br>
+        <label>Item Type :</label> <input type="text" name="type"><br>
+        <label>Available :</label> <input type="text" name="avail"><br>
+        <label>Expiary Date :</label> <input type="date" name="exdate"><br>
+        <input class="btn roberto-btn mt-15" type="submit" name="submit">
+    </form>
+<html>
+<head></head>
+<body>
+<table>
+ <tr>
+   <th>Item code</th>
+   <th>Item Name</th>
+   <th>Item Type</th>
+   <th>Available</th>
+   <th>Expiary Date</th>
+ </tr>
+ <?php
+   $con=mysqli_connect("localhost","root","","bill");
+   $query="select * from item";
+   $res=mysqli_query($con,$query);
+   while($row=mysqli_fetch_array($res))
+   {
+     echo "<tr><td>",$row["item_code"],"</td><td>", $row["item_name"],"</td> <td>",$row["type"],"</td><td>",
+     $row["available"],"</td><td>",$row["expiary_date"],"</td></tr>";
+ 
+    }
+    ?>
+</table>
+</body>
+</html>
+  
